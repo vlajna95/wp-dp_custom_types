@@ -3,7 +3,7 @@
 Plugin Name: DP custom post types
 Plugin URI: https://github.com/vlajna95/wp-dp_custom_types
 Description: Plugin to register custom post types (books and challenges)
-Version: 1.0
+Version: 1.0.1
 Author: Danijela Popović
 Author URI: https://danimundo.com
 Textdomain: dp_custom_types
@@ -93,7 +93,7 @@ function dp_book_review_on_blog_page($query) {
 	}
 }
 
-add_action('pre_get_posts', 'dp_book_review_on_blog_page');
+// add_action('pre_get_posts', 'dp_book_review_on_blog_page');
 
 
 // Register Challenge - custom post type
@@ -164,21 +164,22 @@ function dp_custom_post_type__challenge() {
 
 add_action('init', 'dp_custom_post_type__challenge', 0);
 
-// Include the Challenge custom type in the blog index
 
-function dp_challenge_on_blog_page($query) {
+// Include the custom types in the blog index
+
+function dp_custom_types_on_blog_page($query) {
 	$post_types = $query->get('post_type');
-	if (!$query->is_singular() && $query->is_main_query()) {
+	if (($query->is_home() || $query->is_front_page() || $query->is_tax() || $query->is_archive() || $query->is_search()) && !is_admin()) {
 		if (is_array($post_types)) {
-			$query->set('post_type', $post_types + array('dp_challenge'));
+			$query->set('post_type', $post_types + array('dp_book_review', 'dp_challenge'));
 		}
 		else {
-			$query->set('post_type', array($post_types, 'dp_challenge'));
+			$query->set('post_type', array($post_types, 'dp_book_review', 'dp_challenge'));
 		}
 	}
 }
 
-add_action('pre_get_posts', 'dp_challenge_on_blog_page');
+add_action('pre_get_posts', 'dp_custom_types_on_blog_page');
 
 
 /* Register custom taxonomies */
@@ -236,3 +237,12 @@ function dp_custom_taxonomy__topic() {
 }
 
 add_action('init', 'dp_custom_taxonomy__topic', 0);
+
+// register the custom types also for the Archives widget
+
+function dp_custom_types_in_archives_widget($where) {
+	$where = str_replace("post_type = 'post'", "post_type IN ('post', 'dp_book_review', 'dp_challenge')", $where);
+	return $where;
+}
+
+add_filter('getarchives_where', 'dp_custom_types_in_archives_widget');
