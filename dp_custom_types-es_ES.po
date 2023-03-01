@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DP custom post types v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-01 16:43+0000\n"
+"PO-Revision-Date: 2023-03-01 18:07+0100\n"
+"Last-Translator: Danijela Popović <dani@danimundo.com>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: dp_custom_types\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: dp_custom_types-register_types.php:51
+msgid "A link to a book review"
+msgstr "Un enlace a la reseña"
+
+#: dp_custom_types-register_types.php:136
+msgid "A link to a challenge"
+msgstr "Un enlace al desafío"
+
+#: dp_custom_types-register_types.php:209
+msgid "A link to a topic"
+msgstr "Un enlace al tema/género"
+
+#: dp_custom_types-register_types.php:26
+msgid "Add a new book review"
+msgstr "Añadir nueva reseña de libro"
+
+#: dp_custom_types-register_types.php:111
+msgid "Add a new challenge"
+msgstr "Añadir nuevo desafío"
+
+#: dp_custom_types-register_types.php:196
+msgid "Add a new topic"
+msgstr "Añadir nuevo tema/género"
+
+#: dp_custom_types-register_types.php:25
+msgid "All book reviews"
+msgstr "Todas las reseñas"
+
+#: dp_custom_types-register_types.php:110
+msgid "All challenges"
+msgstr "Todos los desafíos"
+
+#: dp_custom_types-register_types.php:230
+msgid "All reviews of fiction books"
+msgstr "Todas las reseñas de libros de ficción"
+
+#: dp_custom_types-register_types.php:193
+msgid "All topics"
+msgstr "Todos los temas/géneros"
+
+#: dp_custom_types-register_types.php:55
+msgid "Book review"
+msgstr "Reseña"
+
+#: dp_custom_types-register_types.php:27
+msgctxt "Book review"
+msgid "Add new"
+msgstr "Añadir nueva"
+
+#: dp_custom_types-register_types.php:22
+msgid "Book review archives"
+msgstr "Archivos de reseñas"
+
+#: dp_custom_types-register_types.php:23
+msgid "Book review atributes"
+msgstr "Atributos de la reseña"
+
+#: dp_custom_types-register_types.php:50
+msgid "Book review link"
+msgstr "Enlace a la reseña"
+
+#: dp_custom_types-register_types.php:46
+msgid "Book review published privately."
+msgstr "Reseña publicada en privado."
+
+#: dp_custom_types-register_types.php:45
+msgid "Book review published."
+msgstr "Reseña publicada"
+
+#: dp_custom_types-register_types.php:47
+msgid "Book review reverted to draft."
+msgstr "Reseña revertida a borrador."
+
+#: dp_custom_types-register_types.php:48
+msgid "Book review scheduled."
+msgstr "Reseña programada."
+
+#: dp_custom_types-register_types.php:49
+msgid "Book review updated."
+msgstr "Reseña actualizada."
+
+#: dp_custom_types-register_types.php:20 dp_custom_types-register_types.php:21
+msgid "Book reviews"
+msgstr "Reseñas de libros"
+
+#: dp_custom_types-register_types.php:42
+msgid "Book reviews list"
+msgstr "Lista de reseñas"
+
+#: dp_custom_types-register_types.php:43
+msgid "Book reviews list navigation"
+msgstr "Navegación por la lista de reseñas"
+
+#: dp_custom_types-register_types.php:140
+msgid "Challenge"
+msgstr "Desafío"
+
+#: dp_custom_types-register_types.php:112
+msgctxt "Challenge"
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+#: dp_custom_types-register_types.php:107
+msgid "Challenge archives"
+msgstr "Archivos de desafíos"
+
+#: dp_custom_types-register_types.php:108
+msgid "Challenge atributes"
+msgstr "Atributos del desafío"
+
+#: dp_custom_types-register_types.php:135
+msgid "Challenge link"
+msgstr "Enlace al desafío"
+
+#: dp_custom_types-register_types.php:131
+msgid "Challenge published privately."
+msgstr "Desafío publicado en privado."
+
+#: dp_custom_types-register_types.php:130
+msgid "Challenge published."
+msgstr "Desafío publicado."
+
+#: dp_custom_types-register_types.php:132
+msgid "Challenge reverted to draft."
+msgstr "Desafío revertido a borrador."
+
+#: dp_custom_types-register_types.php:133
+msgid "Challenge scheduled."
+msgstr "Desafío programado."
+
+#: dp_custom_types-register_types.php:134
+msgid "Challenge updated."
+msgstr "Desafío actualizado."
+
+#: dp_custom_types-register_types.php:105
+#: dp_custom_types-register_types.php:106
+msgid "Challenges"
+msgstr "Desafíos"
+
+#: dp_custom_types-register_types.php:127
+msgid "Challenges list"
+msgstr "Lista de desafíos"
+
+#: dp_custom_types-register_types.php:128
+msgid "Challenges list navigation"
+msgstr "Navegación por la lista de desafíos"
+
+#. Author of the plugin
+msgid "Danijela Popović"
+msgstr "Danijela Popović"
+
+#. Name of the plugin
+msgid "DP custom post types"
+msgstr "DP tipos de publicación personalizados"
+
+#: dp_custom_types-register_types.php:29
+msgid "Edit book review"
+msgstr "Editar reseña"
+
+#: dp_custom_types-register_types.php:114
+msgid "Edit challenge"
+msgstr "Editar desafío"
+
+#: dp_custom_types-register_types.php:194
+msgid "Edit topic"
+msgstr "Editar tema/género"
+
+#: dp_custom_types-register_types.php:36 dp_custom_types-register_types.php:121
+msgid "Featured image"
+msgstr "Imagen destacada"
+
+#: dp_custom_types-register_types.php:228
+msgid "Fiction"
+msgstr "Ficción"
+
+#: dp_custom_types-register_types.php:44
+msgid "Filter book reviews list"
+msgstr "Filtrar lista de reseñas"
+
+#: dp_custom_types-register_types.php:203
+msgid "Filter by topic"
+msgstr "Filtrar por tema/género"
+
+#: dp_custom_types-register_types.php:129
+msgid "Filter challenges list"
+msgstr "Filtrar la lista de desafíos"
+
+#. Author URI of the plugin
+msgid "https://danimundo.com"
+msgstr "https://danimundo.com"
+
+#. URI of the plugin
+msgid "https://github.com/vlajna95/wp-dp_custom_types"
+msgstr "https://github.com/vlajna95/wp-dp_custom_types"
+
+#: dp_custom_types-register_types.php:40
+msgid "Insert into the book review"
+msgstr "Insertar a la reseña"
+
+#: dp_custom_types-register_types.php:125
+msgid "Insert into the challenge"
+msgstr "Insertar al desafío"
+
+#: dp_custom_types-register_types.php:206
+msgid "Most used topics"
+msgstr "Temas/géneros más utilizados"
+
+#: dp_custom_types-register_types.php:28
+msgid "New book review"
+msgstr "Nueva reseña"
+
+#: dp_custom_types-register_types.php:113
+msgid "New challenge"
+msgstr "Nuevo desafío"
+
+#: dp_custom_types-register_types.php:197
+msgid "New topic name"
+msgstr "Nombre del nuevo tema/género"
+
+#: dp_custom_types-register_types.php:202
+msgid "No topics"
+msgstr "Sin temas/géneros"
+
+#: dp_custom_types-register_types.php:201
+msgid "No topics found."
+msgstr "No se encontraron temas/géneros"
+
+#: dp_custom_types-register_types.php:34 dp_custom_types-register_types.php:119
+msgid "Not found"
+msgstr "No encontrado"
+
+#: dp_custom_types-register_types.php:35 dp_custom_types-register_types.php:120
+msgid "Not found in trash"
+msgstr "No se encuentra en la papelera"
+
+#: dp_custom_types-register_types.php:24
+msgid "Parent book review:"
+msgstr "Reseña superior:"
+
+#: dp_custom_types-register_types.php:109
+msgid "Parent challenge:"
+msgstr "Desafío superior:"
+
+#: dp_custom_types-register_types.php:198
+msgid "Parent topic"
+msgstr "Tema/género superior"
+
+#: dp_custom_types-register_types.php:199
+msgid "Parent topic:"
+msgstr "Tema/género superior:"
+
+#. Description of the plugin
+msgid "Plugin to register custom post types (books and challenges)"
+msgstr "Una extensión que registra tipos de publicación personalizados (reseñas de libros y desafíos)"
+
+#: dp_custom_types-register_types.php:18
+msgctxt "Post type general name"
+msgid "Book reviews"
+msgstr "Reseñas de libros"
+
+#: dp_custom_types-register_types.php:103
+msgctxt "Post type general name"
+msgid "Challenges"
+msgstr "Desafíos"
+
+#: dp_custom_types-register_types.php:19
+msgctxt "Post type singular name"
+msgid "Book review"
+msgstr "Reseña"
+
+#: dp_custom_types-register_types.php:104
+msgctxt "Post type singular name"
+msgid "Challenge"
+msgstr "Desafío"
+
+#: dp_custom_types-register_types.php:141
+msgid "Reading and writing challenges"
+msgstr "Desafíos de lectura y escritura"
+
+#: dp_custom_types-register_types.php:38 dp_custom_types-register_types.php:123
+msgid "Remove featured image"
+msgstr "Eliminar imagen destacada"
+
+#: dp_custom_types-register_types.php:56
+msgid "Reviews of books and book series"
+msgstr "Reseñas de libros y series de libros"
+
+#: dp_custom_types-register_types.php:33
+msgid "Search book reviews"
+msgstr "Buscar reseñas"
+
+#: dp_custom_types-register_types.php:118
+msgid "Search challenges"
+msgstr "Buscar desafíos"
+
+#: dp_custom_types-register_types.php:200
+msgid "Search topics"
+msgstr "Buscar temas/géneros"
+
+#: dp_custom_types-register_types.php:37 dp_custom_types-register_types.php:122
+msgid "Set featured image"
+msgstr "Establecer imagen destacada"
+
+#: dp_custom_types-register_types.php:190
+msgctxt "Taxonomy general name"
+msgid "Topics"
+msgstr "Temas/géneros"
+
+#: dp_custom_types-register_types.php:191
+msgctxt "Taxonomy singular name"
+msgid "Topic"
+msgstr "Tema/género"
+
+#: dp_custom_types-register_types.php:208
+msgid "Topic link"
+msgstr "Enlace al tema/género"
+
+#: dp_custom_types-register_types.php:192
+msgid "Topics"
+msgstr "Temas/géneros"
+
+#: dp_custom_types-register_types.php:204
+msgid "Topics list"
+msgstr "Lista de temas/géneros"
+
+#: dp_custom_types-register_types.php:205
+msgid "Topics list navigation"
+msgstr "Navegación por la lista de temas/géneros"
+
+#: dp_custom_types-register_types.php:215
+msgid "Topics to sort and order book reviews"
+msgstr "Temas/géneros para ordenar las reseñas de libros"
+
+#: dp_custom_types-register_types.php:30
+msgid "Update book review"
+msgstr "Actualizar la reseña"
+
+#: dp_custom_types-register_types.php:115
+msgid "Update challenge"
+msgstr "Actualizar el desafío"
+
+#: dp_custom_types-register_types.php:195
+msgid "Update topic"
+msgstr "Actualizar el tema/género"
+
+#: dp_custom_types-register_types.php:41
+msgid "Uploaded to this book review"
+msgstr "Subido a la reseña"
+
+#: dp_custom_types-register_types.php:126
+msgid "Uploaded to this challenge"
+msgstr "Subido al desafío"
+
+#: dp_custom_types-register_types.php:39 dp_custom_types-register_types.php:124
+msgid "Use as featured image"
+msgstr "Usa como imagen destacada"
+
+#: dp_custom_types-register_types.php:31
+msgid "View book review"
+msgstr "Ver reseña"
+
+#: dp_custom_types-register_types.php:32
+msgid "View book reviews"
+msgstr "Ver las reseñas"
+
+#: dp_custom_types-register_types.php:116
+msgid "View challenge"
+msgstr "Ver desafío"
+
+#: dp_custom_types-register_types.php:117
+msgid "View challenges"
+msgstr "Ver los desafíos"
+
+#: dp_custom_types-register_types.php:207
+msgid "← Back to topics"
+msgstr "← Volver a los temas/géneros"
